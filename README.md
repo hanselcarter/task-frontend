@@ -57,4 +57,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## How to use tasks management
 
-We only have one page you can start by adding task with the blue button, I should have done more validation but due to time frame I think its better to show how can I arquitect the project.
+We only have one page you can start by adding task with the blue button, I should have done more validation but due to time frame I think its better to show how can I arquitect the project. App id deployed here --> https://task-frontend-swart.vercel.app/
