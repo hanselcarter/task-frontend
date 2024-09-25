@@ -14,7 +14,6 @@ const CreateModal = ({ setIsOpen, onSaveTask }: ModalProps) => {
     status: "",
   });
 
-  console.log(task);
   return (
     <>
       <div className={"darkBG"} onClick={() => setIsOpen(false)} />

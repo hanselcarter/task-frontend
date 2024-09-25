@@ -20,10 +20,10 @@ export const useCreatetask = () => {
         body: JSON.stringify({ ...task }),
       });
 
-      if (response.status === 200) {
-        const data = await response.json();
+      if (response.status === 201) {
+        await response.json();
 
-        setTask(data as Task);
+        setTask(task as Task);
       } else {
         setTask(undefined);
       }
