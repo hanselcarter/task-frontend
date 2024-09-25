@@ -1,4 +1,4 @@
-# Getting Started with Autcomplete app
+# Getting Started with Task app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
