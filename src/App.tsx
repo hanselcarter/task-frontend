@@ -8,6 +8,7 @@ import { useCreatetask } from "./hooks/useCreateTask";
 import TaskCard from "./components/ui/TaskCard";
 import { useUpdateTask } from "./hooks/useUpdateTask";
 import { useDeleteTask } from "./hooks/useDeleteTask";
+import { CSVLink } from "react-csv";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,6 +50,11 @@ function App() {
           <button className="primaryBtn" onClick={() => setIsOpen(true)}>
             Add Task
           </button>
+          {tasks.length > 0 && (
+            <CSVLink data={tasks} className="primaryBtn">
+              Download tasks as CSV
+            </CSVLink>
+          )}
         </div>
       </div>
 
