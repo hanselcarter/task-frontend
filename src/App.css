@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.headline {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.descriptionContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.description {
+  text-align: center;
+  font-size: medium;
+  font-weight: normal;
+  color: #4d4d4d;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: "space-around";
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
